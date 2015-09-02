@@ -20,7 +20,7 @@
                     thrownDescription = '\n' + e.data.message;
                     newMessage = message + thrownDescription;
                 }
-                l//ogger.error(asdfsafd);
+                //logger.error(asdfsafd);
                 return $q.reject(e);
             };
         }
